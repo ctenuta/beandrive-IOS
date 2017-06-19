@@ -13,9 +13,14 @@
 		4E98DE8D1EF6A996004EC9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E98DE8B1EF6A996004EC9DB /* Main.storyboard */; };
 		4E98DE8F1EF6A996004EC9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E98DE8E1EF6A996004EC9DB /* Assets.xcassets */; };
 		4E98DE921EF6A996004EC9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E98DE901EF6A996004EC9DB /* LaunchScreen.storyboard */; };
+		4E98DE9A1EF6A9B8004EC9DB /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98DE991EF6A9B8004EC9DB /* iphone.png */; };
+		4E98DE9C1EF6AA0C004EC9DB /* Bean+.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98DE9B1EF6AA0C004EC9DB /* Bean+.png */; };
+		4E98DE9E1EF6BB04004EC9DB /* motor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98DE9D1EF6BB04004EC9DB /* motor.png */; };
+		872961EF065E26D1D34D7BF7 /* Pods_BeanDrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8F2A4E8C87D2031517BC01 /* Pods_BeanDrive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F8F2A4E8C87D2031517BC01 /* Pods_BeanDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeanDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E98DE7F1EF6A996004EC9DB /* BeanDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E98DE831EF6A996004EC9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E98DE851EF6A996004EC9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		4E98DE8E1EF6A996004EC9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E98DE911EF6A996004EC9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E98DE931EF6A996004EC9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E98DE991EF6A9B8004EC9DB /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		4E98DE9B1EF6AA0C004EC9DB /* Bean+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bean+.png"; sourceTree = "<group>"; };
+		4E98DE9D1EF6BB04004EC9DB /* motor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motor.png; sourceTree = "<group>"; };
+		F854A91673FA6460B9448989 /* Pods-BeanDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeanDrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeanDrive/Pods-BeanDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		FD30F09E0AAA772A0E209E3A /* Pods-BeanDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeanDrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeanDrive/Pods-BeanDrive.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872961EF065E26D1D34D7BF7 /* Pods_BeanDrive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				4E98DE811EF6A996004EC9DB /* BeanDrive */,
 				4E98DE801EF6A996004EC9DB /* Products */,
+				DE1481DC62C603FD8EB35D08 /* Pods */,
+				BC492ABCD8C4CBC2A2EDF658 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,9 @@
 		4E98DE811EF6A996004EC9DB /* BeanDrive */ = {
 			isa = PBXGroup;
 			children = (
+				4E98DE9D1EF6BB04004EC9DB /* motor.png */,
+				4E98DE9B1EF6AA0C004EC9DB /* Bean+.png */,
+				4E98DE991EF6A9B8004EC9DB /* iphone.png */,
 				4E98DE851EF6A996004EC9DB /* AppDelegate.h */,
 				4E98DE861EF6A996004EC9DB /* AppDelegate.m */,
 				4E98DE881EF6A996004EC9DB /* ViewController.h */,
@@ -79,6 +95,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BC492ABCD8C4CBC2A2EDF658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F2A4E8C87D2031517BC01 /* Pods_BeanDrive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE1481DC62C603FD8EB35D08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F854A91673FA6460B9448989 /* Pods-BeanDrive.debug.xcconfig */,
+				FD30F09E0AAA772A0E209E3A /* Pods-BeanDrive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E98DE961EF6A996004EC9DB /* Build configuration list for PBXNativeTarget "BeanDrive" */;
 			buildPhases = (
+				24816E0B2E2631CACEC132F8 /* [CP] Check Pods Manifest.lock */,
 				4E98DE7B1EF6A996004EC9DB /* Sources */,
 				4E98DE7C1EF6A996004EC9DB /* Frameworks */,
 				4E98DE7D1EF6A996004EC9DB /* Resources */,
+				8FF9D2167D401C73FDFDEA9A /* [CP] Embed Pods Frameworks */,
+				2B1AE331E50A4FE3C8F6E83E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,13 +174,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E98DE9C1EF6AA0C004EC9DB /* Bean+.png in Resources */,
+				4E98DE9A1EF6A9B8004EC9DB /* iphone.png in Resources */,
 				4E98DE921EF6A996004EC9DB /* LaunchScreen.storyboard in Resources */,
 				4E98DE8F1EF6A996004EC9DB /* Assets.xcassets in Resources */,
 				4E98DE8D1EF6A996004EC9DB /* Main.storyboard in Resources */,
+				4E98DE9E1EF6BB04004EC9DB /* motor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24816E0B2E2631CACEC132F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B1AE331E50A4FE3C8F6E83E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeanDrive/Pods-BeanDrive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF9D2167D401C73FDFDEA9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeanDrive/Pods-BeanDrive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E98DE7B1EF6A996004EC9DB /* Sources */ = {
@@ -271,10 +358,12 @@
 		};
 		4E98DE971EF6A996004EC9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F854A91673FA6460B9448989 /* Pods-BeanDrive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B782JQ8NSA;
 				INFOPLIST_FILE = BeanDrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.clubedogeninho.BeanDrive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +372,12 @@
 		};
 		4E98DE981EF6A996004EC9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD30F09E0AAA772A0E209E3A /* Pods-BeanDrive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B782JQ8NSA;
 				INFOPLIST_FILE = BeanDrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.clubedogeninho.BeanDrive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +403,7 @@
 				4E98DE981EF6A996004EC9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

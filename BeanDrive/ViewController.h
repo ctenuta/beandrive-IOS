@@ -8,7 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@import Bean_iOS_OSX_SDK;
+
+@interface ViewController : UIViewController<PTDBeanManagerDelegate, PTDBeanDelegate>
+
+@property (strong, nonatomic) PTDBeanManager *beanManager;
+@property (strong, nonatomic) PTDBean *motorControl;
+
+@property (retain, nonatomic) IBOutlet UIButton  *connection;
+@property (retain, nonatomic) IBOutlet UILabel  *state;
+
+@property (retain, nonatomic) IBOutlet UISlider  *speedMotor1;
+@property (retain, nonatomic) IBOutlet UISegmentedControl  *directionMotor1;
+
+@property (retain, nonatomic) IBOutlet UISlider  *speedMotor2;
+@property (retain, nonatomic) IBOutlet UISegmentedControl  *directionMotor2;
 
 
 @end
